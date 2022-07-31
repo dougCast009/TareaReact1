@@ -34,7 +34,6 @@ function Animales() {
                         {animal.nombre}:
                     </li>
                     <li style={{ 
-                        fontWeight: 'bold', 
                         listStyle : 'none' }}
                     >
                         {animal.Descripcion}

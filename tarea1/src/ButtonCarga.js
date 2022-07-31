@@ -9,8 +9,8 @@ function ButtonCarga(props){
         </div>
     )
     function cambiarBoton(a){
-        if(a ==  true){
-            valor = "Cargando";
+        if(a ===  true){
+            valor = "Cargando...";
         } else {
             valor = "Listo"
         }
