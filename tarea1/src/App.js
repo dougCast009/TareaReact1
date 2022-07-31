@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import Animales from './Animales';
 import './App.css';
 import ButtonCarga from './ButtonCarga';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>Tarea N°1 de React</h1>
       <ButtonCarga cargando={true}/>
+      <Animales />
     </div>
   );
 }
